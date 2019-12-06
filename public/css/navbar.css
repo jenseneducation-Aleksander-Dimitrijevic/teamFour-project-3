@@ -1,0 +1,63 @@
+@import "reset.css";
+.navbar-wrapper {
+  width: 100%;
+  margin: 0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-wrapper a.site-logo {
+  color: rgb(53, 52, 52);
+  text-decoration: none;
+}
+
+.navbar-wrapper a.site-logo i {
+  font-size: 5rem;
+}
+
+.navbar-wrapper ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar-wrapper ul a {
+  display: block;
+  color: #222;
+  font-size: 16px;
+  margin-left: 2rem;
+  padding: 5px 20px;
+  border-radius: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+}
+
+.navbar-wrapper ul a i {
+  color: #40ba37;
+  margin-left: 0.5rem;
+}
+
+.navbar-wrapper ul a:hover {
+  color: #fff;
+  transition: 0.3s;
+  background: #40ba37;
+  border-bottom: 2px solid #1c8314;
+}
+
+.navbar-wrapper ul a:hover i {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.navbar-wrapper ul a.active {
+  color: #fff;
+  background: #40ba37;
+  border-bottom: 2px solid #1c8314;
+}
+
+.navbar-wrapper ul a.active i {
+  color: #fff;
+}
