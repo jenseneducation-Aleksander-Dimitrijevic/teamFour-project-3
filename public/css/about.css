@@ -1,2 +1,158 @@
 @import "reset.css";
 @import "navbar.css";
+
+.container1{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+  ul{
+    list-style: none;
+    padding:0;
+  }
+
+  .company-info{
+    background:#063f02;
+    color: #999;
+  }
+
+  .company-info h3, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+padding: 1rem ;
+  }
+  .company-info li{
+font-size: 1rem;
+  }
+  .contact{
+    background:#eff3f0;
+  }
+
+ 
+
+  /* LARGE SCREENS */
+  @media(min-width:700px){
+    .wrapper1{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .wrapper1 > *{
+      padding:2em;
+    }
+
+    .company-info h3, .company-info ul{
+      text-align: left;
+    }
+  }
+
+    .footer {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer .social-media i {
+    cursor: pointer;
+    margin: 0 1rem;
+    color: #999;
+    transition: 0.3s;
+    font-size: 0.9rem;
+  }
+
+  .footer .social-media i:hover {
+    color: #40ba37;
+  }
+
+  .footer a.site-logo {
+    font-size: 2rem;
+    color: #999;
+  }
+
+  .footer p {
+    letter-spacing: 1px;
+    color: #999;
+    margin: 0;
+  }
+.container1{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+  ul{
+    list-style: none;
+    padding:0;
+  }
+
+  .company-info{
+    background:#063f02;
+    color: #999;
+  }
+
+  .company-info h3, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+padding: 1rem ;
+  }
+  .company-info li{
+font-size: 1rem;
+  }
+  .contact{
+    background:#eff3f0;
+  }
+
+ 
+  /* LARGE SCREENS */
+  @media(min-width:700px){
+    .wrapper1{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .wrapper1 > *{
+      padding:2em;
+    }
+
+    .company-info h3, .company-info ul{
+      text-align: left;
+    }
+  }
+
+    .footer {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer .social-media i {
+    cursor: pointer;
+    margin: 0 1rem;
+    color: #999;
+    transition: 0.3s;
+    font-size: 0.9rem;
+  }
+
+  .footer .social-media i:hover {
+    color: #40ba37;
+  }
+
+  .footer a.site-logo {
+    font-size: 2rem;
+    color: #999;
+  }
+
+  .footer p {
+    letter-spacing: 1px;
+    color: #999;
+    margin: 0;
+  }
