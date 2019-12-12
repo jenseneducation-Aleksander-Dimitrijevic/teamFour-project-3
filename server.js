@@ -3,7 +3,7 @@ const app = express();
 app.set("view engine", "ejs");
 app.use("/static", express.static("public"));
 
-const port = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000;
 
 // Routes
 app.get("/", (req, res) => {
@@ -25,4 +25,4 @@ app.get("/success", (req, res) => {
   res.render("success");
 });
 
-app.listen(port, () => console.log("Server is running..."));
+app.listen(PORT, () => console.log("Server is running..."));
