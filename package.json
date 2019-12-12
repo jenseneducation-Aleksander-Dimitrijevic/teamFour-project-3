@@ -1,7 +1,7 @@
 {
-  "name": "teamFour-project-3",
+  "name": "teamfour-project-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a project with nodej.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +14,14 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenseneducation-Aleksander-Dimitrijevic/teamFour-project-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jenseneducation-Aleksander-Dimitrijevic/teamFour-project-3/issues"
+  },
+  "homepage": "https://github.com/jenseneducation-Aleksander-Dimitrijevic/teamFour-project-3#readme"
 }
