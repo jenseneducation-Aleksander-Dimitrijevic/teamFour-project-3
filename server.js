@@ -3,6 +3,8 @@ const app = express();
 app.set("view engine", "ejs");
 app.use("/static", express.static("public"));
 
+const port = process.env.PORT || 4000;
+
 // Routes
 app.get("/", (req, res) => {
   res.render("index");
@@ -23,4 +25,4 @@ app.get("/success", (req, res) => {
   res.render("success");
 });
 
-app.listen(3000, () => console.log("Server is running..."));
+app.listen(port, () => console.log("Server is running..."));
