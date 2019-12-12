@@ -24,9 +24,4 @@ app.get("/signin", (req, res) => {
 app.get("/success", (req, res) => {
   res.render("success");
 });
-
-<<<<<<< HEAD
-app.listen(port, () => console.log("Server is running..."));
-=======
 app.listen(PORT, () => console.log("Server is running..."));
->>>>>>> b07386e1e1e4e2fe6a9d900942ea9a470b99c1bf
